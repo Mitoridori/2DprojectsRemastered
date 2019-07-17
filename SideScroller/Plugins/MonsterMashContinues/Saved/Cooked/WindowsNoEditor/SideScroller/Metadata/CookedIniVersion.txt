@@ -1785,7 +1785,7 @@ Windows.Input:/Script/EngineSettings.ConsoleSettings:AutoCompleteFadedColor:0=(R
 Windows.Game:StartupActions:bAddPacks:0=False
 Windows.Game:StartupActions:InsertPack:0=(PackSource="StarterContent.upack",PackName="StarterContent")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="D/UnrealGames/sidescroller/2DprojectsRemastered/SideScroller/Builds")
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="D/UnrealGames/sidescroller/2DprojectsRemastered/SideScroller/Releases")
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
@@ -1809,7 +1809,7 @@ Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bEncryptPakIndex:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:GenerateEarlyDownloaderPakFile:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeBlueprintAssets:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bNativizeOnlySelectedBlueprints:0=False
-Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
+Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Shipping
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
@@ -1927,6 +1927,7 @@ Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
 Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:0=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")),SpecificAssets=,Rules=(Priority=-1,bApplyRecursively=True,ChunkId=-1,CookRule=Unknown))
 Windows.Game:/Script/Engine.AssetManagerSettings:PrimaryAssetTypesToScan:1=(PrimaryAssetType="PrimaryAssetLabel",AssetBaseClass=/Script/Engine.PrimaryAssetLabel,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game")),SpecificAssets=,Rules=(Priority=-1,bApplyRecursively=True,ChunkId=-1,CookRule=Unknown))
+Windows.Game:/Script/Engine.AssetManagerSettings:DirectoriesToExclude:0=(Path="/Game/2DSideScrollerBP/Maps/DLCMap")
 Windows.Game:/Script/Engine.AssetManagerSettings:bOnlyCookProductionAssets:0=False
 Windows.Game:/Script/Engine.AssetManagerSettings:bShouldManagerDetermineTypeAndName:0=False
 Windows.Game:/Script/Engine.AssetManagerSettings:bShouldGuessTypeAndNameInEditor:0=True
